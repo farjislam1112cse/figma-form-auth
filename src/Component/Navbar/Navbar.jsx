@@ -6,10 +6,10 @@ const Navbar = () => {
         <div className='flex justify-between p-8 items-center '>
             {/* logo */}
             <div>
-                <img src="src/image/logo.ong" alt="logo" />
+                <img className =" w-[100px] h-[100px]"   src="src/image/logo.png" alt="logo" />
             </div>
             {/* menu */}
-            <div className=' flex gap-2'>
+            <div className=' flex gap-4 text-xl font-bold'>
                 <NavLink to="/product">Product</NavLink>
                 <NavLink to="/enterprice">Enterprice</NavLink>
                 <NavLink to="/pricing">pricing</NavLink>
